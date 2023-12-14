@@ -1,0 +1,204 @@
+/* COGS3 studyBuddy specific styles go here. */
+#title {
+    background-color:  #3D30A2;
+    padding-bottom: 5%;;
+    z-index: 1;
+    position: relative;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+h1{
+    font-family: 'ntr';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #FFA33C;
+}
+
+h2{
+    font-family: 'ntr';
+    font-size: 1.5;
+    font-weight: bold;
+    color: black;
+}
+
+h3{
+    font-family: 'ntr';
+    font-weight: bold;
+}
+
+p{
+    color: gray;
+}
+
+a{
+    font-family: 'ntr';
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+p{
+    font-family: 'ntr';
+    font-size: 20px;
+}
+
+/*Navigation Bar*/
+.navbar-brand{
+    font-family: 'Pacifico';
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #FFFB73 !important;
+}
+
+.navbar{
+    padding-bottom: 4.5rem ;
+}
+
+.nav-item{
+    font-family: 'ntr';
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-family: 'ntr';
+    font-weight: bold;
+    color:#FFFB73 !important;
+}
+
+
+/*Download Buttons */
+.download-button{
+    color: white;
+    background-color: black;
+    margin: 5% 3% 5% 0%;
+    font-family: 'ntr';
+
+}
+
+/*Title Image*/
+.title-image{
+    transform: rotate(10deg);
+    width: 70%;
+    position: absolute;
+    z-index: 2
+}
+
+/*Features*/
+#features{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 3;
+
+}
+
+.icon{
+    font-size: 300%;
+    color: #FFA33C;
+    margin-bottom: 1rem;
+}
+
+.social-icon{
+    margin: 20px 10px;
+    font-size: 200%;
+}
+
+.icon:hover{
+    color: #3D30A2;
+}
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FFA33C;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+#press{
+    background-color: #FFA33C;
+    text-align: center;
+    padding-bottom: 4.5rem;
+}
+
+.press-logo{
+    width:100px;
+    margin: 2%;
+}
+
+#testimonial-carousel{
+    background-color: none;
+    padding: 7% 15%;
+}
+
+/*Pricing*/
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-header{
+    color: #000;
+}
+
+.card{
+    background-color: white;
+    border-width: 10px;
+}
+
+.card-header{
+    color: white;
+    background-color: #3D30A2;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+}
+
+.sign-up-button{
+    color: black;
+    background-color: #FFA33C;
+    font-family: "ntr";
+    font-weight: bold;
+}
+
+/*Call to Action (CTA)*/
+#cta{
+    background-color: #3D30A2;
+    color: white !important;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.cta-heading{
+    font-family: 'ntr';
+    font-weight: bold;
+}
+
+/*Footer*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    color: black;
+}
+
+
+/*Media Query Section*/
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        padding-top: 5%;
+    }
+}
